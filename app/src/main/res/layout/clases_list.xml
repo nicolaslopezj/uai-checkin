@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/teacherImageView"
+        android:adjustViewBounds="true"
+        android:layout_width="55dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/teacher_image_background"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/labelNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/teacherImageView"
+        android:layout_marginTop="40dp"
+        android:text="Vacio"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/labelNombreProfesor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/teacherImageView"
+        android:text="Vacio"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/labelHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:text="Vacio"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/labelSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:text="Vacio"
+        android:textSize="20dp"/>
+    
+    <TextView
+        android:id="@+id/infoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp"
+        android:layout_marginLeft="-40dp"/>
+
+</RelativeLayout>

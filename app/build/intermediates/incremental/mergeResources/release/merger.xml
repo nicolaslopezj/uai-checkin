@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="20.0.0" >
+        <source path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res" >
+            <file
+                name="teacher_image_background"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable/teacher_image_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-hdpi/ic_action_search.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-hdpi/ic_launcher.jpeg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher_ant"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-hdpi/ic_launcher_ant.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-ldpi/ic_launcher.jpeg"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher_ant"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-ldpi/ic_launcher_ant.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-mdpi/ic_action_search.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher_ant"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-mdpi/ic_launcher_ant.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-xhdpi/ic_action_search.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-xhdpi/ic_launcher.jpeg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher_ant"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/drawable-xhdpi/ic_launcher_ant.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_inicio"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/layout/activity_inicio.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ajustes_activity"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/layout/ajustes_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="clases_list"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/layout/clases_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_inicio"
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/menu/activity_inicio.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="padding_medium" >8dp
+                </dimen>
+                <dimen name="padding_small" >8dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="title_activity_inicio" >Check In
+                </string>
+                <string name="app_name" >Check In
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+            </file>
+            <file
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/values-large/dimens.xml"
+                qualifiers="large-v4" >
+                <dimen name="padding_medium" >16dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+                <dimen name="padding_small" >8dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+        </source>
+        <source path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/generated/res/rs/release" />
+        <source path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/src/release/res" />
+    </dataSet>
+
+</merger>

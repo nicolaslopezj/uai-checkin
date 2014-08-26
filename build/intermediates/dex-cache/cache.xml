@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-d1ebc5194136445f911a5578b78d5ec0ff4e2f2c.jar"
+        jar="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-974d9650a3410443c7f078a5983545480dd111cf.jar"
+        jar="/Users/nicolaslopezj/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.2/9e025bc5b84968e7d6ac765e660a70b3e5a87432/universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9e025bc5b84968e7d6ac765e660a70b3e5a87432"/>
+    <item
+        dex="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/intermediates/pre-dexed/debug/classes-c2efe1869349d092b290d4d00cba1d7f4dd1f3ce.jar"
+        jar="/Users/nicolaslopezj/Documents/Android/CheckInUAI1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>

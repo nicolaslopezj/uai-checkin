@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="25dp"
+        android:text="Ajustes"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+    
+    <Button
+        android:id="@+id/buttonCargarConPregradoSantiago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTitulo"
+        android:layout_below="@+id/textViewTitulo"
+        android:onClick="cambiarAPregradoSantiago"
+        android:text="Pregrado Santiago" />
+    
+    <Button
+        android:id="@+id/buttonCargarConPregradoVina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/buttonCargarConPregradoSantiago"
+        android:layout_below="@+id/textViewTitulo"
+        android:layout_marginLeft="10dp"
+        android:onClick="cambiarAPregradoVina"
+        android:text="Pregrado Viña" />
+    
+    <Button
+        android:id="@+id/buttonCargarConFIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/buttonCargarConPregradoVina"
+        android:layout_below="@+id/textViewTitulo"
+        android:layout_marginLeft="10dp"
+        android:onClick="cambiarAFIC"
+        android:text="Pregrado FIC" />
+    
+    <TextView
+        android:id="@+id/textViewLinkSubidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTitulo"
+        android:layout_below="@+id/buttonCargarConPregradoSantiago"
+        android:layout_marginTop="20dp"
+        android:text="Link para cargar clases" />
+
+    <EditText
+        android:id="@+id/editLinkSubidas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewLinkSubidas"
+        android:layout_below="@+id/textViewLinkSubidas"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="32dp"
+        android:hint="Link"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/textViewLinkDescargas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editLinkSubidas"
+        android:layout_below="@+id/editLinkSubidas"
+        android:layout_marginTop="43dp"
+        android:text="Link para descargar clases" />
+    
+    <EditText
+        android:id="@+id/editTextLinkDescargas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editLinkSubidas"
+        android:layout_alignRight="@+id/editLinkSubidas"
+        android:layout_below="@+id/textViewLinkDescargas"
+        android:layout_marginTop="5dp"
+        android:hint="Link"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewConfirmarConRut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextLinkDescargas"
+        android:layout_below="@+id/editTextLinkDescargas"
+        android:layout_marginTop="43dp"
+        android:text="Confirmar asistencia con Rut" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonConfirmarConRut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewConfirmarConRut"
+        android:layout_below="@+id/textViewConfirmarConRut"
+        android:layout_marginTop="5dp"
+        android:textOn="Activado"
+        android:textOff="Desactivado" />
+
+    <TextView
+        android:id="@+id/textViewEscribeClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleButtonConfirmarConRut"
+        android:layout_below="@+id/toggleButtonConfirmarConRut"
+        android:layout_marginTop="43dp"
+        android:text="Escribe la contraseña para guardar" />
+
+    <EditText
+        android:id="@+id/editTextClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewEscribeClave"
+        android:layout_alignRight="@+id/editLinkSubidas"
+        android:layout_below="@+id/textViewEscribeClave"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+</RelativeLayout>
