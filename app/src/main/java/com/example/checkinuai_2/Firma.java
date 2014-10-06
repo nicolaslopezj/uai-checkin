@@ -160,7 +160,8 @@ public class Firma extends Activity{
         
         //el input del reemplazante
         inptrmplz = new EditText(this);
-        inptrmplz.setHint("Si eres un reemplazante escribe tu Rut acá");
+        inptrmplz.setVisibility(View.INVISIBLE);
+        inptrmplz.setHint("Si eres un reemplazante escribe tu rut sin dígito verificador");
         inptrmplz.setSingleLine(true);
         inptrmplz.setInputType(InputType.TYPE_CLASS_PHONE);
         inptrmplz.setHeight(75);
@@ -247,6 +248,13 @@ public class Firma extends Activity{
 			
 			@Override
 			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+                if (isChecked) {
+                    inptrmplz.setVisibility(View.VISIBLE);
+                } else {
+                    inptrmplz.setVisibility(View.INVISIBLE);
+                }
+
 				if (preferences.getBoolean("ConfirmarConRut", false)) {
 					if (isChecked) {
 						inputConfirmarConRut.setVisibility(View.GONE);
@@ -263,7 +271,12 @@ public class Firma extends Activity{
 	 public void checkIn(){
 		 	if(drawView.paths.size() == 1){
 		 		Log.e("Firma", "El profesor " + nombre_profesor + " trato de hacer checkin sin firmar");
-				Toast.makeText(this, nombre_profesor + " tienes que firmar para confirmar", Toast.LENGTH_LONG).show();
+                if (chkbx.isChecked()) {
+                    Toast.makeText(this, "Tienes que firmar para confirmar", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(this, nombre_profesor + ", tienes que firmar para confirmar", Toast.LENGTH_LONG).show();
+                }
+
 				if (preferences.getBoolean("ConfirmarConRut", false)) {
 					inputConfirmarConRut.setText("");
 					InputMethodManager imm = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
@@ -273,6 +286,10 @@ public class Firma extends Activity{
                 String rutReemplazante = "";
                 if (chkbx.isChecked()) {
                     rutReemplazante = inptrmplz.getText().toString();
+                    if (rutReemplazante.length() < 6) {
+                        Toast.makeText(this, "Tienes que escribir tu rut", Toast.LENGTH_LONG).show();
+                        return;
+                    }
                     Toast.makeText(this, "Reemplazante: " + rutReemplazante, Toast.LENGTH_LONG).show();
                 }
 
